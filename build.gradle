@@ -4,13 +4,16 @@ plugins {
 }
 
 group 'com.jaeeunyoo'
-version '1.0-SNAPSHOT'
 
 allprojects {
     group 'com.jaeeunyoo'
     repositories {
         mavenCentral()
     }
+}
+
+jar {
+    enabled = false
 }
 
 dependencies {
